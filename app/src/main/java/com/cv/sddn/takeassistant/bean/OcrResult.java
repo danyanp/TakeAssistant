@@ -1,4 +1,4 @@
-package com.cv.sddn.takeassistant;
+package com.cv.sddn.takeassistant.bean;
 
 import com.google.gson.annotations.SerializedName;
 

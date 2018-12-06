@@ -3,6 +3,6 @@
     <dbname value="takeassistant"></dbname>
     <version value="4"></version>
     <list>
-    <mapping class="com.cv.sddn.takeassistant.OcrResult"></mapping>
+    <mapping class="com.cv.sddn.takeassistant.bean.OcrResult"></mapping>
     </list>
 </litepal>

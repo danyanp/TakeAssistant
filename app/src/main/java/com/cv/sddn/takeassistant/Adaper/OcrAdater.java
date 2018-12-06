@@ -1,30 +1,25 @@
-package com.cv.sddn.takeassistant;
+package com.cv.sddn.takeassistant.Adaper;
 
+import com.cv.sddn.takeassistant.Activity.MainActivity;
+import com.cv.sddn.takeassistant.bean.OcrResult;
+import com.cv.sddn.takeassistant.R;
 
 import android.Manifest;
-import android.annotation.SuppressLint;
 import android.content.*;
 import android.content.pm.PackageManager;
 import android.net.Uri;
 import android.support.annotation.NonNull;
 import android.support.v4.app.ActivityCompat;
-import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 import android.view.*;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import org.litepal.LitePal;
 
 import java.text.SimpleDateFormat;
 import java.util.List;
-
-
-import pub.devrel.easypermissions.EasyPermissions;
-
-import static android.content.Context.ACCOUNT_SERVICE;
 
 /**
  * Created by sddn on 2018/11/28.

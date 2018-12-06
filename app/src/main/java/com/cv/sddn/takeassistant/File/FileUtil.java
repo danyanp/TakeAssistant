@@ -1,7 +1,7 @@
 /*
  * Copyright (C) 2017 Baidu, Inc. All Rights Reserved.
  */
-package com.cv.sddn.takeassistant;
+package com.cv.sddn.takeassistant.File;
 
 import android.content.Context;
 

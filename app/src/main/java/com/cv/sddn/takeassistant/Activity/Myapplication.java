@@ -1,4 +1,4 @@
-package com.cv.sddn.takeassistant;
+package com.cv.sddn.takeassistant.Activity;
 
 /**
  * Created by sddn on 2018/11/29.

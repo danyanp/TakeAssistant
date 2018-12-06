@@ -9,15 +9,9 @@ import android.util.Log;
 import com.baidu.ocr.sdk.OCR;
 import com.baidu.ocr.sdk.OnResultListener;
 import com.baidu.ocr.sdk.exception.OCRError;
-import com.baidu.ocr.sdk.model.BankCardParams;
-import com.baidu.ocr.sdk.model.BankCardResult;
-import com.baidu.ocr.sdk.model.GeneralBasicParams;
-import com.baidu.ocr.sdk.model.GeneralParams;
-import com.baidu.ocr.sdk.model.GeneralResult;
 import com.baidu.ocr.sdk.model.OcrRequestParams;
 import com.baidu.ocr.sdk.model.OcrResponseResult;
-import com.baidu.ocr.sdk.model.Word;
-import com.baidu.ocr.sdk.model.WordSimple;
+import com.cv.sddn.takeassistant.Activity.MainActivity;
 
 import java.io.File;
 
@@ -27,7 +21,7 @@ import java.io.File;
 
 public class RecognizeService {
 
-    interface ServiceListener {
+    public interface ServiceListener {
         public void onResult(String result);
     }
 
