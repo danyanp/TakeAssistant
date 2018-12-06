@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical">
+
+    <!--<TextView-->
+        <!--android:id="@+id/phonenum"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentStart="true"-->
+        <!--android:text="提示信息"-->
+        <!--android:textAlignment="center"-->
+        <!--android:textSize="60px" />-->
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/ocr_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true" />
+
+
+    <com.github.clans.fab.FloatingActionMenu
+        android:id="@+id/menu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:paddingBottom="40dp"
+        android:paddingLeft="40dp"
+        fab:menu_backgroundColor="#ccffffff"
+        fab:menu_labels_ellipsize="end"
+        fab:menu_labels_position="right"
+        fab:menu_labels_singleLine="true">
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_alignParentStart="true"-->
+        <!--android:layout_marginBottom="28dp"-->
+        <!--fab:menu_animationDelayPerItem="50"-->
+        <!--fab:menu_backgroundColor="@android:color/transparent"-->
+        <!--fab:menu_buttonSpacing="0dp"-->
+        <!--fab:menu_colorNormal="#DA4336"-->
+        <!--fab:menu_colorPressed="#E75043"-->
+        <!--fab:menu_colorRipple="#99FFFFFF"-->
+        <!--fab:menu_fab_label="your_label_here"-->
+        <!--fab:menu_fab_size="normal"-->
+        <!--fab:menu_icon="@drawable/fab_add"-->
+        <!--fab:menu_labels_hideAnimation="@anim/fab_slide_out_to_right"-->
+        <!--fab:menu_labels_showAnimation="@anim/fab_slide_in_from_right"-->
+        <!--fab:menu_labels_style="@style/MenuLabelsStyle"-->
+        <!--fab:menu_openDirection="up"-->
+        <!--fab:menu_shadowColor="#66000000"-->
+        <!--fab:menu_shadowRadius="4dp"-->
+        <!--fab:menu_shadowXOffset="1dp"-->
+        <!--fab:menu_shadowYOffset="3dp"-->
+        <!--fab:menu_showShadow="true">-->
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/general_basic_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/bd_ocr_cancel"
+            fab:fab_label="识别并保存号码"
+            fab:fab_size="mini" />
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/basic_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/bd_ocr_cancel"
+            fab:fab_label="识别并拨打电话"
+
+            fab:fab_size="mini" />
+
+    </com.github.clans.fab.FloatingActionMenu>
+
+</RelativeLayout>
