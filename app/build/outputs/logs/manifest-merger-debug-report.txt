@@ -1,0 +1,210 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\sddn\AndroidStudioProjects\TakeAssistant\app\src\main\AndroidManifest.xml:2:1-31:12
+INJECTED from C:\Users\sddn\AndroidStudioProjects\TakeAssistant\app\src\main\AndroidManifest.xml:2:1-31:12
+INJECTED from C:\Users\sddn\AndroidStudioProjects\TakeAssistant\app\src\main\AndroidManifest.xml:2:1-31:12
+INJECTED from C:\Users\sddn\AndroidStudioProjects\TakeAssistant\app\src\main\AndroidManifest.xml:2:1-31:12
+MERGED from [com.android.support:design:27.1.1] C:\Users\sddn\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\fc4c9255abd82cb67c6de8677dca627e\AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.clans:fab:1.6.4] C:\Users\sddn\.gradle\caches\transforms-1\files-1.1\fab-1.6.4.aar\b8aab4d116d3cd32da5a5660206273e1\AndroidManifest.xml:2:1-14:12
+MERGED from [pub.devrel:easypermissions:1.0.1] C:\Users\sddn\.gradle\caches\transforms-1\files-1.1\easypermissions-1.0.1.aar\2625c1346e889cd09316a4758a321ddd\AndroidManifest.xml:2:1-19:12
+MERGED from [:ocr_ui] C:\Users\sddn\AndroidStudioProjects\TakeAssistant\ocr_ui\build\intermediates\manifests\full\debug\AndroidManifest.xml:3:1-33:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\sddn\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\b6b272eb3cc4d4fef2fde465a3400b7a\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\sddn\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\f4aa936a03d0e8f57552c79d7c40802a\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:27.1.1] C:\Users\sddn\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.1.1.aar\2e5fd9a41400e9f73efde5c88835bd14\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\sddn\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\77d19ef5c538b021a58df10a6c31ecf6\AndroidManifest.xml:2:1-11:12
+MERGED from [org.litepal.android:core:2.0.0] C:\Users\sddn\.gradle\caches\transforms-1\files-1.1\core-2.0.0.aar\a33ec548e449b452a1d444e477f057af\AndroidManifest.xml:2:1-15:12
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\sddn\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\3e7011107754067e06ccccc500c9f4d4\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:27.1.1] C:\Users\sddn\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\ce4b01c0cfaa946898467ef6996009d6\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\sddn\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\f1e4c1a83ba6b413530d19c782a22911\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\sddn\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\77edaa2b9d90781c5c9f27cd189cdc2a\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\sddn\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\ec2f43ea5a942fc7b29545191ef295bb\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\sddn\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\944580fa7560c9b0ce222b3fe1623e2c\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\sddn\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\d759c765e5c5e5fe5c1f3284c4d73140\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\sddn\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\47eb6ee96a4a151c0a9be1b13b41f685\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\sddn\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\206f1cbe4c9628a88d5f4229812b11a6\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\sddn\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\d5536a383a9535c23f3ec142649b40eb\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\sddn\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\cf7b5c3aff03a0adffa53d93d84a670e\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\sddn\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\64a2b0769bb1c310c9e7c1696607c8b4\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\sddn\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\f9593e2471794583d758d060c8eea642\AndroidManifest.xml:17:1-22:12
+INJECTED from C:\Users\sddn\AndroidStudioProjects\TakeAssistant\app\src\main\AndroidManifest.xml:2:1-31:12
+INJECTED from C:\Users\sddn\AndroidStudioProjects\TakeAssistant\app\src\main\AndroidManifest.xml:2:1-31:12
+INJECTED from C:\Users\sddn\AndroidStudioProjects\TakeAssistant\app\src\main\AndroidManifest.xml:2:1-31:12
+	package
+		ADDED from C:\Users\sddn\AndroidStudioProjects\TakeAssistant\app\src\main\AndroidManifest.xml:4:5-40
+		INJECTED from C:\Users\sddn\AndroidStudioProjects\TakeAssistant\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\sddn\AndroidStudioProjects\TakeAssistant\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\sddn\AndroidStudioProjects\TakeAssistant\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\sddn\AndroidStudioProjects\TakeAssistant\app\src\main\AndroidManifest.xml:2:1-31:12
+		INJECTED from C:\Users\sddn\AndroidStudioProjects\TakeAssistant\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from C:\Users\sddn\AndroidStudioProjects\TakeAssistant\app\src\main\AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from C:\Users\sddn\AndroidStudioProjects\TakeAssistant\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\sddn\AndroidStudioProjects\TakeAssistant\app\src\main\AndroidManifest.xml:2:1-31:12
+		INJECTED from C:\Users\sddn\AndroidStudioProjects\TakeAssistant\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\sddn\AndroidStudioProjects\TakeAssistant\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.CALL_PHONE
+ADDED from C:\Users\sddn\AndroidStudioProjects\TakeAssistant\app\src\main\AndroidManifest.xml:6:5-69
+	android:name
+		ADDED from C:\Users\sddn\AndroidStudioProjects\TakeAssistant\app\src\main\AndroidManifest.xml:6:22-66
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\sddn\AndroidStudioProjects\TakeAssistant\app\src\main\AndroidManifest.xml:7:5-67
+	android:name
+		ADDED from C:\Users\sddn\AndroidStudioProjects\TakeAssistant\app\src\main\AndroidManifest.xml:7:22-64
+uses-permission#android.permission.CAMERA
+ADDED from C:\Users\sddn\AndroidStudioProjects\TakeAssistant\app\src\main\AndroidManifest.xml:8:5-65
+MERGED from [:ocr_ui] C:\Users\sddn\AndroidStudioProjects\TakeAssistant\ocr_ui\build\intermediates\manifests\full\debug\AndroidManifest.xml:12:5-65
+MERGED from [:ocr_ui] C:\Users\sddn\AndroidStudioProjects\TakeAssistant\ocr_ui\build\intermediates\manifests\full\debug\AndroidManifest.xml:12:5-65
+	android:name
+		ADDED from C:\Users\sddn\AndroidStudioProjects\TakeAssistant\app\src\main\AndroidManifest.xml:8:22-62
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\sddn\AndroidStudioProjects\TakeAssistant\app\src\main\AndroidManifest.xml:9:5-80
+MERGED from [:ocr_ui] C:\Users\sddn\AndroidStudioProjects\TakeAssistant\ocr_ui\build\intermediates\manifests\full\debug\AndroidManifest.xml:13:5-80
+MERGED from [:ocr_ui] C:\Users\sddn\AndroidStudioProjects\TakeAssistant\ocr_ui\build\intermediates\manifests\full\debug\AndroidManifest.xml:13:5-80
+	android:name
+		ADDED from C:\Users\sddn\AndroidStudioProjects\TakeAssistant\app\src\main\AndroidManifest.xml:9:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\sddn\AndroidStudioProjects\TakeAssistant\app\src\main\AndroidManifest.xml:10:5-81
+MERGED from [:ocr_ui] C:\Users\sddn\AndroidStudioProjects\TakeAssistant\ocr_ui\build\intermediates\manifests\full\debug\AndroidManifest.xml:14:5-81
+MERGED from [:ocr_ui] C:\Users\sddn\AndroidStudioProjects\TakeAssistant\ocr_ui\build\intermediates\manifests\full\debug\AndroidManifest.xml:14:5-81
+	android:name
+		ADDED from C:\Users\sddn\AndroidStudioProjects\TakeAssistant\app\src\main\AndroidManifest.xml:10:22-78
+application
+ADDED from C:\Users\sddn\AndroidStudioProjects\TakeAssistant\app\src\main\AndroidManifest.xml:12:5-29:19
+MERGED from [com.github.clans:fab:1.6.4] C:\Users\sddn\.gradle\caches\transforms-1\files-1.1\fab-1.6.4.aar\b8aab4d116d3cd32da5a5660206273e1\AndroidManifest.xml:12:5-20
+MERGED from [com.github.clans:fab:1.6.4] C:\Users\sddn\.gradle\caches\transforms-1\files-1.1\fab-1.6.4.aar\b8aab4d116d3cd32da5a5660206273e1\AndroidManifest.xml:12:5-20
+MERGED from [pub.devrel:easypermissions:1.0.1] C:\Users\sddn\.gradle\caches\transforms-1\files-1.1\easypermissions-1.0.1.aar\2625c1346e889cd09316a4758a321ddd\AndroidManifest.xml:11:5-17:19
+MERGED from [pub.devrel:easypermissions:1.0.1] C:\Users\sddn\.gradle\caches\transforms-1\files-1.1\easypermissions-1.0.1.aar\2625c1346e889cd09316a4758a321ddd\AndroidManifest.xml:11:5-17:19
+MERGED from [:ocr_ui] C:\Users\sddn\AndroidStudioProjects\TakeAssistant\ocr_ui\build\intermediates\manifests\full\debug\AndroidManifest.xml:20:5-31:19
+MERGED from [:ocr_ui] C:\Users\sddn\AndroidStudioProjects\TakeAssistant\ocr_ui\build\intermediates\manifests\full\debug\AndroidManifest.xml:20:5-31:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\sddn\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\77d19ef5c538b021a58df10a6c31ecf6\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\sddn\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\77d19ef5c538b021a58df10a6c31ecf6\AndroidManifest.xml:9:5-20
+MERGED from [org.litepal.android:core:2.0.0] C:\Users\sddn\.gradle\caches\transforms-1\files-1.1\core-2.0.0.aar\a33ec548e449b452a1d444e477f057af\AndroidManifest.xml:12:5-13:19
+MERGED from [org.litepal.android:core:2.0.0] C:\Users\sddn\.gradle\caches\transforms-1\files-1.1\core-2.0.0.aar\a33ec548e449b452a1d444e477f057af\AndroidManifest.xml:12:5-13:19
+	android:supportsRtl
+		ADDED from C:\Users\sddn\AndroidStudioProjects\TakeAssistant\app\src\main\AndroidManifest.xml:18:9-35
+	android:label
+		ADDED from C:\Users\sddn\AndroidStudioProjects\TakeAssistant\app\src\main\AndroidManifest.xml:16:9-27
+		REJECTED from [:ocr_ui] C:\Users\sddn\AndroidStudioProjects\TakeAssistant\ocr_ui\build\intermediates\manifests\full\debug\AndroidManifest.xml:23:9-41
+	android:vmSafeMode
+		ADDED from [:ocr_ui] C:\Users\sddn\AndroidStudioProjects\TakeAssistant\ocr_ui\build\intermediates\manifests\full\debug\AndroidManifest.xml:26:9-34
+	android:roundIcon
+		ADDED from C:\Users\sddn\AndroidStudioProjects\TakeAssistant\app\src\main\AndroidManifest.xml:17:9-54
+	android:icon
+		ADDED from C:\Users\sddn\AndroidStudioProjects\TakeAssistant\app\src\main\AndroidManifest.xml:15:9-36
+		REJECTED from [:ocr_ui] C:\Users\sddn\AndroidStudioProjects\TakeAssistant\ocr_ui\build\intermediates\manifests\full\debug\AndroidManifest.xml:22:9-36
+	android:allowBackup
+		ADDED from C:\Users\sddn\AndroidStudioProjects\TakeAssistant\app\src\main\AndroidManifest.xml:14:9-35
+	android:theme
+		ADDED from C:\Users\sddn\AndroidStudioProjects\TakeAssistant\app\src\main\AndroidManifest.xml:19:9-40
+		REJECTED from [:ocr_ui] C:\Users\sddn\AndroidStudioProjects\TakeAssistant\ocr_ui\build\intermediates\manifests\full\debug\AndroidManifest.xml:25:9-40
+	tools:replace
+		ADDED from C:\Users\sddn\AndroidStudioProjects\TakeAssistant\app\src\main\AndroidManifest.xml:20:9-41
+	android:name
+		ADDED from C:\Users\sddn\AndroidStudioProjects\TakeAssistant\app\src\main\AndroidManifest.xml:13:9-54
+activity#com.cv.sddn.takeassistant.Activity.MainActivity
+ADDED from C:\Users\sddn\AndroidStudioProjects\TakeAssistant\app\src\main\AndroidManifest.xml:21:9-28:20
+	android:theme
+		ADDED from C:\Users\sddn\AndroidStudioProjects\TakeAssistant\app\src\main\AndroidManifest.xml:22:20-63
+	android:name
+		ADDED from C:\Users\sddn\AndroidStudioProjects\TakeAssistant\app\src\main\AndroidManifest.xml:21:19-56
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\sddn\AndroidStudioProjects\TakeAssistant\app\src\main\AndroidManifest.xml:24:13-27:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\sddn\AndroidStudioProjects\TakeAssistant\app\src\main\AndroidManifest.xml:25:17-69
+	android:name
+		ADDED from C:\Users\sddn\AndroidStudioProjects\TakeAssistant\app\src\main\AndroidManifest.xml:25:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\sddn\AndroidStudioProjects\TakeAssistant\app\src\main\AndroidManifest.xml:26:17-77
+	android:name
+		ADDED from C:\Users\sddn\AndroidStudioProjects\TakeAssistant\app\src\main\AndroidManifest.xml:26:27-74
+uses-sdk
+INJECTED from C:\Users\sddn\AndroidStudioProjects\TakeAssistant\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\sddn\AndroidStudioProjects\TakeAssistant\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\sddn\AndroidStudioProjects\TakeAssistant\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:design:27.1.1] C:\Users\sddn\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\fc4c9255abd82cb67c6de8677dca627e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.1.1] C:\Users\sddn\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\fc4c9255abd82cb67c6de8677dca627e\AndroidManifest.xml:20:5-44
+MERGED from [com.github.clans:fab:1.6.4] C:\Users\sddn\.gradle\caches\transforms-1\files-1.1\fab-1.6.4.aar\b8aab4d116d3cd32da5a5660206273e1\AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.clans:fab:1.6.4] C:\Users\sddn\.gradle\caches\transforms-1\files-1.1\fab-1.6.4.aar\b8aab4d116d3cd32da5a5660206273e1\AndroidManifest.xml:8:5-10:41
+MERGED from [pub.devrel:easypermissions:1.0.1] C:\Users\sddn\.gradle\caches\transforms-1\files-1.1\easypermissions-1.0.1.aar\2625c1346e889cd09316a4758a321ddd\AndroidManifest.xml:7:5-9:41
+MERGED from [pub.devrel:easypermissions:1.0.1] C:\Users\sddn\.gradle\caches\transforms-1\files-1.1\easypermissions-1.0.1.aar\2625c1346e889cd09316a4758a321ddd\AndroidManifest.xml:7:5-9:41
+MERGED from [:ocr_ui] C:\Users\sddn\AndroidStudioProjects\TakeAssistant\ocr_ui\build\intermediates\manifests\full\debug\AndroidManifest.xml:8:5-10:41
+MERGED from [:ocr_ui] C:\Users\sddn\AndroidStudioProjects\TakeAssistant\ocr_ui\build\intermediates\manifests\full\debug\AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\sddn\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\b6b272eb3cc4d4fef2fde465a3400b7a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\sddn\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\b6b272eb3cc4d4fef2fde465a3400b7a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\sddn\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\f4aa936a03d0e8f57552c79d7c40802a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\sddn\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\f4aa936a03d0e8f57552c79d7c40802a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.1.1] C:\Users\sddn\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.1.1.aar\2e5fd9a41400e9f73efde5c88835bd14\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.1.1] C:\Users\sddn\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.1.1.aar\2e5fd9a41400e9f73efde5c88835bd14\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\sddn\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\77d19ef5c538b021a58df10a6c31ecf6\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\sddn\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\77d19ef5c538b021a58df10a6c31ecf6\AndroidManifest.xml:5:5-7:41
+MERGED from [org.litepal.android:core:2.0.0] C:\Users\sddn\.gradle\caches\transforms-1\files-1.1\core-2.0.0.aar\a33ec548e449b452a1d444e477f057af\AndroidManifest.xml:8:5-10:41
+MERGED from [org.litepal.android:core:2.0.0] C:\Users\sddn\.gradle\caches\transforms-1\files-1.1\core-2.0.0.aar\a33ec548e449b452a1d444e477f057af\AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\sddn\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\3e7011107754067e06ccccc500c9f4d4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\sddn\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\3e7011107754067e06ccccc500c9f4d4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] C:\Users\sddn\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\ce4b01c0cfaa946898467ef6996009d6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] C:\Users\sddn\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\ce4b01c0cfaa946898467ef6996009d6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\sddn\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\f1e4c1a83ba6b413530d19c782a22911\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\sddn\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\f1e4c1a83ba6b413530d19c782a22911\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\sddn\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\77edaa2b9d90781c5c9f27cd189cdc2a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\sddn\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\77edaa2b9d90781c5c9f27cd189cdc2a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\sddn\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\ec2f43ea5a942fc7b29545191ef295bb\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\sddn\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\ec2f43ea5a942fc7b29545191ef295bb\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\sddn\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\944580fa7560c9b0ce222b3fe1623e2c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\sddn\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\944580fa7560c9b0ce222b3fe1623e2c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\sddn\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\d759c765e5c5e5fe5c1f3284c4d73140\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\sddn\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\d759c765e5c5e5fe5c1f3284c4d73140\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\sddn\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\47eb6ee96a4a151c0a9be1b13b41f685\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\sddn\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\47eb6ee96a4a151c0a9be1b13b41f685\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\sddn\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\206f1cbe4c9628a88d5f4229812b11a6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\sddn\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\206f1cbe4c9628a88d5f4229812b11a6\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\sddn\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\d5536a383a9535c23f3ec142649b40eb\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\sddn\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\d5536a383a9535c23f3ec142649b40eb\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\sddn\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\cf7b5c3aff03a0adffa53d93d84a670e\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\sddn\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\cf7b5c3aff03a0adffa53d93d84a670e\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\sddn\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\64a2b0769bb1c310c9e7c1696607c8b4\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\sddn\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\64a2b0769bb1c310c9e7c1696607c8b4\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\sddn\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\f9593e2471794583d758d060c8eea642\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\sddn\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\f9593e2471794583d758d060c8eea642\AndroidManifest.xml:20:5-44
+INJECTED from C:\Users\sddn\AndroidStudioProjects\TakeAssistant\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\sddn\AndroidStudioProjects\TakeAssistant\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\sddn\AndroidStudioProjects\TakeAssistant\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\sddn\AndroidStudioProjects\TakeAssistant\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\sddn\AndroidStudioProjects\TakeAssistant\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\sddn\AndroidStudioProjects\TakeAssistant\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\sddn\AndroidStudioProjects\TakeAssistant\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\sddn\AndroidStudioProjects\TakeAssistant\app\src\main\AndroidManifest.xml
+activity#pub.devrel.easypermissions.AppSettingsDialogHolderActivity
+ADDED from [pub.devrel:easypermissions:1.0.1] C:\Users\sddn\.gradle\caches\transforms-1\files-1.1\easypermissions-1.0.1.aar\2625c1346e889cd09316a4758a321ddd\AndroidManifest.xml:12:9-16:66
+	android:label
+		ADDED from [pub.devrel:easypermissions:1.0.1] C:\Users\sddn\.gradle\caches\transforms-1\files-1.1\easypermissions-1.0.1.aar\2625c1346e889cd09316a4758a321ddd\AndroidManifest.xml:15:13-29
+	android:exported
+		ADDED from [pub.devrel:easypermissions:1.0.1] C:\Users\sddn\.gradle\caches\transforms-1\files-1.1\easypermissions-1.0.1.aar\2625c1346e889cd09316a4758a321ddd\AndroidManifest.xml:14:13-37
+	android:theme
+		ADDED from [pub.devrel:easypermissions:1.0.1] C:\Users\sddn\.gradle\caches\transforms-1\files-1.1\easypermissions-1.0.1.aar\2625c1346e889cd09316a4758a321ddd\AndroidManifest.xml:16:13-63
+	android:name
+		ADDED from [pub.devrel:easypermissions:1.0.1] C:\Users\sddn\.gradle\caches\transforms-1\files-1.1\easypermissions-1.0.1.aar\2625c1346e889cd09316a4758a321ddd\AndroidManifest.xml:13:13-86
+uses-feature#android.hardware.camera2.full
+ADDED from [:ocr_ui] C:\Users\sddn\AndroidStudioProjects\TakeAssistant\ocr_ui\build\intermediates\manifests\full\debug\AndroidManifest.xml:16:5-66
+	android:name
+		ADDED from [:ocr_ui] C:\Users\sddn\AndroidStudioProjects\TakeAssistant\ocr_ui\build\intermediates\manifests\full\debug\AndroidManifest.xml:16:19-63
+uses-feature#android.hardware.camera
+ADDED from [:ocr_ui] C:\Users\sddn\AndroidStudioProjects\TakeAssistant\ocr_ui\build\intermediates\manifests\full\debug\AndroidManifest.xml:17:5-60
+	android:name
+		ADDED from [:ocr_ui] C:\Users\sddn\AndroidStudioProjects\TakeAssistant\ocr_ui\build\intermediates\manifests\full\debug\AndroidManifest.xml:17:19-57
+uses-feature#android.hardware.camera.autofocus
+ADDED from [:ocr_ui] C:\Users\sddn\AndroidStudioProjects\TakeAssistant\ocr_ui\build\intermediates\manifests\full\debug\AndroidManifest.xml:18:5-70
+	android:name
+		ADDED from [:ocr_ui] C:\Users\sddn\AndroidStudioProjects\TakeAssistant\ocr_ui\build\intermediates\manifests\full\debug\AndroidManifest.xml:18:19-67
+activity#com.baidu.ocr.ui.camera.CameraActivity
+ADDED from [:ocr_ui] C:\Users\sddn\AndroidStudioProjects\TakeAssistant\ocr_ui\build\intermediates\manifests\full\debug\AndroidManifest.xml:27:9-30:80
+	android:configChanges
+		ADDED from [:ocr_ui] C:\Users\sddn\AndroidStudioProjects\TakeAssistant\ocr_ui\build\intermediates\manifests\full\debug\AndroidManifest.xml:29:13-59
+	android:theme
+		ADDED from [:ocr_ui] C:\Users\sddn\AndroidStudioProjects\TakeAssistant\ocr_ui\build\intermediates\manifests\full\debug\AndroidManifest.xml:30:13-77
+	android:name
+		ADDED from [:ocr_ui] C:\Users\sddn\AndroidStudioProjects\TakeAssistant\ocr_ui\build\intermediates\manifests\full\debug\AndroidManifest.xml:28:13-66

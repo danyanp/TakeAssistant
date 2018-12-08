@@ -46,8 +46,50 @@ app
 ├─ FileUtil.java
 ├─ RecognizeService.java
 ```
+```
+└─takeassistant
+    │  RecognizeService.java
+    │
+    ├─Activity
+    │      MainActivity.java
+    │      Myapplication.java
+    │
+    ├─Adaper
+    │      NumAdaper.java
+    │      OcrAdater.java
+    │
+    ├─bean
+    │      OcrResult.java
+    │
+    ├─File
+    │      FileUtil.java
+    │
+    └─ToolClass
+            JsonHelper.java
+```
+```
 
+├─layout
+│      activity_main.xml
+│      activity_main2.xml
+│      app_bar_main2.xml
+│      nav_header_main2.xml
+│      ocr_item.xml
+│
+├─menu
+│      activity_main_drawer.xml
+│      main.xml
+│
+├─values
+│      colors.xml
+│      dimens.xml
+│      strings.xml
+│      styles.xml
+│
+└─values-v21
+        styles.xml
 
+```
 
 
 ## Debug:

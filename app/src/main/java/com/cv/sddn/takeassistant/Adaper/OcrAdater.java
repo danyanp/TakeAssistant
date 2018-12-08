@@ -73,8 +73,9 @@ public class OcrAdater extends RecyclerView.Adapter<OcrAdater.MyViewHolder> {
     //绑定数据
     @Override
     public void onBindViewHolder(@NonNull MyViewHolder holder, final int position) {
-        if (ocrResultlist.size()==0){
+        if (ocrResultlist.size()<=0){
             Log.e(MainActivity.ACTIVITY_SERVICE, "获取数字:" + ocrResultlist.size());
+
         }
         String num = String.valueOf(position + 1);
         final OcrResult ocrResult = ocrResultlist.get(position);
@@ -147,6 +148,7 @@ public class OcrAdater extends RecyclerView.Adapter<OcrAdater.MyViewHolder> {
     //返回Item的数量
     @Override
     public int getItemCount() {
-        return ocrResultlist.size();
+        return ocrResultlist.size() == 0 ? 0 : ocrResultlist.size();
     }
+
 }
