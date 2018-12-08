@@ -1,4 +1,4 @@
-#Sat Dec 08 10:24:50 CST 2018
-base.0=C\:\\Users\\sddn\\AndroidStudioProjects\\TakeAssistant\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\37
+#Sat Dec 08 23:24:31 CST 2018
+base.0=C\:\\Users\\sddn\\AndroidStudioProjects\\TakeAssistant\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\56
 renamed.0=classes.dex
-file.0=C\:\\Users\\sddn\\AndroidStudioProjects\\TakeAssistant\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\37\\classes.dex
+file.0=C\:\\Users\\sddn\\AndroidStudioProjects\\TakeAssistant\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\56\\classes.dex

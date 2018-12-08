@@ -5,6 +5,7 @@ import com.cv.sddn.takeassistant.bean.OcrResult;
 import com.cv.sddn.takeassistant.R;
 
 import android.Manifest;
+import android.annotation.SuppressLint;
 import android.content.*;
 import android.content.pm.PackageManager;
 import android.net.Uri;
@@ -26,12 +27,10 @@ import java.util.List;
  * OcrAdater适配器
  *
  */
-
 public class OcrAdater extends RecyclerView.Adapter<OcrAdater.MyViewHolder> {
 
     private MainActivity context;
     private List<OcrResult> ocrResultlist;
-    private int CAMERA_REQUESTCODE = 120;
 
     //继承RecyclerView.ViewHolder抽象类的自定义ViewHolder(内部类)
     public static class MyViewHolder extends RecyclerView.ViewHolder {
@@ -63,7 +62,7 @@ public class OcrAdater extends RecyclerView.Adapter<OcrAdater.MyViewHolder> {
         //实例化得到Item布局文件的View对象
         //View v = View.inflate(context, R.layout.ocr_item, null);
         //LayoutInflater.from指定写法
-        
+
         View v = LayoutInflater.from(parent.getContext()).inflate(R.layout.ocr_item, parent, false);
         //返回MyViewHolder的对象
         return new MyViewHolder(v);
@@ -129,26 +128,17 @@ public class OcrAdater extends RecyclerView.Adapter<OcrAdater.MyViewHolder> {
     }
 
 
+    @SuppressLint("MissingPermission")
     public void callPhone(String phoneNum) {
         Intent intent = new Intent(Intent.ACTION_CALL);
         Uri data = Uri.parse("tel:" + phoneNum);
         intent.setData(data);
-        if (ActivityCompat.checkSelfPermission(context, Manifest.permission.CALL_PHONE) != PackageManager.PERMISSION_GRANTED) {
-            // TODO: Consider calling
-            //    ActivityCompat#requestPermissions
-            // here to request the missing permissions, and then overriding
-            //   public void onRequestPermissionsResult(int requestCode, String[] permissions,
-            //                                          int[] grantResults)
-            // to handle the case where the user grants the permission. See the documentation
-            // for ActivityCompat#requestPermissions for more details.
-            return;
-        }
         context.startActivity(intent);
     }
     //返回Item的数量
     @Override
     public int getItemCount() {
-        return ocrResultlist.size() == 0 ? 0 : ocrResultlist.size();
+        return ocrResultlist.size();
     }
 
 }

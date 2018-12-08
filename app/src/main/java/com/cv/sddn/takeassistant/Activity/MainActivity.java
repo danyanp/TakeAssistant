@@ -124,8 +124,10 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
     private void initrecycler() {
         //获取查询数据库中数据
+
         OcrResultList = LitePal.findAll(OcrResult.class);
         recyclerView = findViewById(R.id.ocr_list);
+        ocrAdater = new OcrAdater(OcrResultList,MainActivity.this);
         LinearLayoutManager layout = new LinearLayoutManager(this);
         layout.setStackFromEnd(true);//列表再底部开始展示，反转后由上面开始展示
         layout.setReverseLayout(true);//列表翻转
