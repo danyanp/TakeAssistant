@@ -3,7 +3,7 @@
     package="com.cv.sddn.takeassistant.test" >
 
     <uses-sdk
-        android:minSdkVersion="24"
+        android:minSdkVersion="22"
         android:targetSdkVersion="27" />
 
     <instrumentation

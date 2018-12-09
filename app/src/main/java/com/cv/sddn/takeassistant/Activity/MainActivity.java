@@ -21,8 +21,8 @@ import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.TextView;
 import android.widget.Toast;
+
 
 import com.baidu.ocr.sdk.OCR;
 import com.baidu.ocr.sdk.OnResultListener;
@@ -30,10 +30,11 @@ import com.baidu.ocr.sdk.exception.OCRError;
 import com.baidu.ocr.sdk.model.AccessToken;
 import com.baidu.ocr.ui.camera.CameraActivity;
 import com.cv.sddn.takeassistant.File.FileUtil;
-import com.cv.sddn.takeassistant.Adaper.OcrAdater;
+import com.cv.sddn.takeassistant.Adaper.OcrAdaper;
 import com.cv.sddn.takeassistant.bean.OcrResult;
 import com.cv.sddn.takeassistant.R;
 import com.cv.sddn.takeassistant.RecognizeService;
+import com.github.clans.fab.FloatingActionButton;
 import com.github.clans.fab.FloatingActionMenu;
 
 import org.json.JSONArray;
@@ -49,105 +50,39 @@ import pub.devrel.easypermissions.EasyPermissions;
 
 import static com.cv.sddn.takeassistant.ToolClass.JsonHelper.getJsonStrFromNetData;
 
-public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener{
+public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener,View.OnClickListener{
+
     private static final int REQUEST_CODE_NUMBERS = 126;
     private static final int REQUEST_CODE_NUMBER = 120;
-
+    private String[] mPerms = {Manifest.permission.CALL_PHONE,Manifest.permission.INTERNET,Manifest.permission.CAMERA,Manifest.permission.READ_EXTERNAL_STORAGE,Manifest.permission.WRITE_EXTERNAL_STORAGE};
     private List<String> resultList = new ArrayList<>();
-    private RecyclerView recyclerView;
     private AlertDialog.Builder alertDialog;
     private boolean hasGotToken = false;
-    private TextView phonenum;
-    private String[] mPerms = {Manifest.permission.CALL_PHONE,Manifest.permission.INTERNET,Manifest.permission.CAMERA,Manifest.permission.READ_EXTERNAL_STORAGE,Manifest.permission.WRITE_EXTERNAL_STORAGE};
     private static final int PERMISSIONS = 100;
-    private List<OcrResult> OcrResultList;
-    private OcrAdater ocrAdater;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main2);
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
-        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
-        ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
-                this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
-        drawer.addDrawerListener(toggle);
-        toggle.syncState();
-        NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
-        navigationView.setNavigationItemSelectedListener(this);
-
-        //初始化recyclerView
-        initrecycler();
-        requestPermission();
-        //phonenum = (TextView) findViewById(R.id.phonenum);
-        alertDialog = new AlertDialog.Builder(this);
-        final FloatingActionMenu menu = (FloatingActionMenu) findViewById(R.id.menu);
-        menu.setClosedOnTouchOutside(true);
-        navigationView.setNavigationItemSelectedListener(this);
-        // 数字识别
-        findViewById(R.id.basic_button).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                if (!checkTokenStatus()) {
-                    return;
-                }
-                Intent intent = new Intent(MainActivity.this, CameraActivity.class);
-                intent.putExtra(CameraActivity.KEY_OUTPUT_FILE_PATH,
-                        FileUtil.getSaveFile(getApplication()).getAbsolutePath());
-                intent.putExtra(CameraActivity.KEY_CONTENT_TYPE,
-                        CameraActivity.CONTENT_TYPE_GENERAL);
-                startActivityForResult(intent, REQUEST_CODE_NUMBER);
-            }
-
-        });
-
-        findViewById(R.id.general_basic_button).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                if (!checkTokenStatus()) {
-                    return;
-                }
-                Intent intent = new Intent(MainActivity.this, CameraActivity.class);
-                intent.putExtra(CameraActivity.KEY_OUTPUT_FILE_PATH,
-                        FileUtil.getSaveFile(getApplication()).getAbsolutePath());
-                intent.putExtra(CameraActivity.KEY_CONTENT_TYPE,
-                        CameraActivity.CONTENT_TYPE_GENERAL);
-                startActivityForResult(intent, REQUEST_CODE_NUMBERS);
-            }
-        });
+        //FloatingActionButton 两个悬浮按钮FAB
+        FloatingActionButton basic_button = (FloatingActionButton) findViewById(R.id.basic_button);
+        FloatingActionButton general_basic_button = (FloatingActionButton) findViewById(R.id.general_basic_button);
+        basic_button.setOnClickListener(this);
+        general_basic_button.setOnClickListener(this);
         // 请选择您的初始化方式
         initAccessToken();
-        //initAccessTokenWithAkSk();
+        //初始化Toolbar
+        initToolbar();
+        //初始化recyclerView
+        initRecycler();
+        //获取权限
+        requestPermission();
+//        alertDialog = new AlertDialog.Builder(this);
+        //点击空白处，关闭菜单
+        final FloatingActionMenu menu = (FloatingActionMenu) findViewById(R.id.menu);
+        menu.setClosedOnTouchOutside(true);
     }
-
-
-    private void initrecycler() {
-        //获取查询数据库中数据
-
-        OcrResultList = LitePal.findAll(OcrResult.class);
-        recyclerView = findViewById(R.id.ocr_list);
-        ocrAdater = new OcrAdater(OcrResultList,MainActivity.this);
-        LinearLayoutManager layout = new LinearLayoutManager(this);
-        layout.setStackFromEnd(true);//列表再底部开始展示，反转后由上面开始展示
-        layout.setReverseLayout(true);//列表翻转
-        recyclerView.setLayoutManager(layout);
-        //设置LayoutManager为LinearLayoutManager
-        //recyclerView.setLayoutManager(new LinearLayoutManager(this));
-        //设置Adapter
-        recyclerView.setAdapter(ocrAdater);
-
-    }
-
-    private boolean checkTokenStatus() {
-        if (!hasGotToken) {
-            Toast.makeText(getApplicationContext(), "token还未成功获取", Toast.LENGTH_LONG).show();
-        }
-        return hasGotToken;
-    }
-    /**
-     * 以license文件方式初始化
-     */
+    /*以license文件方式初始化*/
     private void initAccessToken() {
         OCR.getInstance(this).initAccessToken(new OnResultListener<AccessToken>() {
             @Override
@@ -155,13 +90,59 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 String token = accessToken.getAccessToken();
                 hasGotToken = true;
             }
-
             @Override
             public void onError(OCRError error) {
                 error.printStackTrace();
                 alertText("licence方式获取token失败", error.getMessage());
             }
         }, getApplicationContext());
+    }
+
+    private void initToolbar(){
+        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
+
+        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+        ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
+                this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
+        drawer.addDrawerListener(toggle);
+        toggle.syncState();
+
+        NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
+        navigationView.setNavigationItemSelectedListener(this);
+
+    }
+
+    private void initRecycler() {
+        //获取查询数据库中数据
+        List<OcrResult> ocrResultList = LitePal.findAll(OcrResult.class);
+        RecyclerView recyclerView = findViewById(R.id.ocr_list);
+        OcrAdaper ocrAdaper = new OcrAdaper(ocrResultList, MainActivity.this);
+        LinearLayoutManager layout = new LinearLayoutManager(this);
+        layout.setStackFromEnd(true);//列表再底部开始展示，反转后由上面开始展示
+        layout.setReverseLayout(true);//列表翻转
+        recyclerView.setLayoutManager(layout);
+        //设置LayoutManager为LinearLayoutManager
+        //recyclerView.setLayoutManager(new LinearLayoutManager(this));
+        //设置Adapter
+        recyclerView.setAdapter(ocrAdaper);
+
+    }
+    //请求所需权限
+    private void requestPermission() {
+        if (EasyPermissions.hasPermissions(this, mPerms)) {
+            EasyPermissions.requestPermissions(this, "获取应有权限",PERMISSIONS, mPerms);
+            //Log.d(TAG, "onClick: 获取读写内存权限,Camera权限和wifi权限");
+        } else {
+            EasyPermissions.requestPermissions(this, "获取读写内存权限,Camera权限和wifi权限", PERMISSIONS, mPerms);
+        }
+    }
+
+    private boolean checkTokenStatus() {
+        if (!hasGotToken) {
+            Toast.makeText(getApplicationContext(), "token还未成功获取", Toast.LENGTH_LONG).show();
+        }
+        return hasGotToken;
     }
 
 
@@ -176,13 +157,12 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             }
         });
     }
+
     private void infoPopText(final String result) {
         alertText("", result);
     }
-
     @Override
-    public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions,
-                                           @NonNull int[] grantResults) {
+    public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions,@NonNull int[] grantResults) {
         super.onRequestPermissionsResult(requestCode, permissions, grantResults);
         if (grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
             initAccessToken();
@@ -191,15 +171,6 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         }
     }
 
-    //请求所需权限
-    private void requestPermission() {
-        if (EasyPermissions.hasPermissions(this, mPerms)) {
-            EasyPermissions.requestPermissions(this, "获取应有权限",PERMISSIONS, mPerms);
-            //Log.d(TAG, "onClick: 获取读写内存权限,Camera权限和wifi权限");
-        } else {
-            EasyPermissions.requestPermissions(this, "获取读写内存权限,Camera权限和wifi权限", PERMISSIONS, mPerms);
-        }
-    }
     // 识别成功回调
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
@@ -265,7 +236,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 ocrResult.save();
                 callPhone(string);
                 //刷新页面，更新数据
-                this.initrecycler();
+                this.initRecycler();
                 continue;
             }
 
@@ -290,7 +261,6 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         }
         resultList.clear();
     }
-
 
     @SuppressLint("MissingPermission")
     public void callPhone(String phoneNum) {
@@ -316,7 +286,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 ocrResult.setCall_time(dt);
                 ocrResult.save();
                 //刷新页面，更新数据
-                this.initrecycler();
+                this.initRecycler();
                 Toast.makeText(getApplicationContext(), "存入"+a+"条数据", Toast.LENGTH_SHORT).show();
                 continue;
             }
@@ -332,8 +302,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     }
 
     //json字符串转对象
-    public static   List<JSONObject> getJsonObjects(String JsonString)
-    {
+    public static   List<JSONObject> getJsonObjects(String JsonString){
         JsonString = getJsonStrFromNetData(JsonString);
         ArrayList<JSONObject> array = new ArrayList<JSONObject>();
         try {
@@ -356,7 +325,6 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         // 释放内存资源
         OCR.getInstance(this).release();
     }
-
     @Override
     public void onBackPressed() {
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
@@ -386,7 +354,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         }
         return super.onOptionsItemSelected(item);
     }
-    //滑出菜单
+    //滑出菜单，接口方法
     @Override
     public boolean onNavigationItemSelected(@NonNull MenuItem item) {
         // Handle navigation view item clicks here.
@@ -408,6 +376,26 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;
+    }
+    //FAB悬浮按钮，监听，接口方法
+    @Override
+    public void onClick(View view) {
+        if (!checkTokenStatus()) {
+            return;
+        }
+        Intent intent = new Intent(MainActivity.this, CameraActivity.class);
+        intent.putExtra(CameraActivity.KEY_OUTPUT_FILE_PATH,
+                FileUtil.getSaveFile(getApplication()).getAbsolutePath());
+        intent.putExtra(CameraActivity.KEY_CONTENT_TYPE,
+                CameraActivity.CONTENT_TYPE_GENERAL);
+        switch (view.getId()){
+            case R.id.basic_button:
+                startActivityForResult(intent, REQUEST_CODE_NUMBER);
+                break;
+            case R.id.general_basic_button:
+                startActivityForResult(intent, REQUEST_CODE_NUMBERS);
+                break;
+        }
     }
 }
 

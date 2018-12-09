@@ -4,6 +4,10 @@
         "source": "C:\\Users\\sddn\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\b6b272eb3cc4d4fef2fde465a3400b7a\\res\\drawable\\abc_list_selector_holo_light.xml"
     },
     {
+        "merged": "C:\\Users\\sddn\\AndroidStudioProjects\\TakeAssistant\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\color_abc_tint_default.xml.flat",
+        "source": "C:\\Users\\sddn\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\b6b272eb3cc4d4fef2fde465a3400b7a\\res\\color\\abc_tint_default.xml"
+    },
+    {
         "merged": "C:\\Users\\sddn\\AndroidStudioProjects\\TakeAssistant\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_abc_scrubber_control_to_pressed_mtrl_000.png.flat",
         "source": "C:\\Users\\sddn\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\b6b272eb3cc4d4fef2fde465a3400b7a\\res\\drawable-xhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png"
     },
@@ -312,6 +316,10 @@
         "source": "C:\\Users\\sddn\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\b6b272eb3cc4d4fef2fde465a3400b7a\\res\\drawable-ldrtl-xhdpi-v17\\abc_ic_menu_cut_mtrl_alpha.png"
     },
     {
+        "merged": "C:\\Users\\sddn\\AndroidStudioProjects\\TakeAssistant\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\color_abc_tint_edittext.xml.flat",
+        "source": "C:\\Users\\sddn\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\b6b272eb3cc4d4fef2fde465a3400b7a\\res\\color\\abc_tint_edittext.xml"
+    },
+    {
         "merged": "C:\\Users\\sddn\\AndroidStudioProjects\\TakeAssistant\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_notification_bg_low_pressed.9.png.flat",
         "source": "C:\\Users\\sddn\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\206f1cbe4c9628a88d5f4229812b11a6\\res\\drawable-xhdpi-v4\\notification_bg_low_pressed.9.png"
     },
@@ -492,6 +500,10 @@
         "source": "C:\\Users\\sddn\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\b6b272eb3cc4d4fef2fde465a3400b7a\\res\\drawable-xxhdpi-v4\\abc_spinner_mtrl_am_alpha.9.png"
     },
     {
+        "merged": "C:\\Users\\sddn\\AndroidStudioProjects\\TakeAssistant\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\color_abc_tint_seek_thumb.xml.flat",
+        "source": "C:\\Users\\sddn\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\b6b272eb3cc4d4fef2fde465a3400b7a\\res\\color\\abc_tint_seek_thumb.xml"
+    },
+    {
         "merged": "C:\\Users\\sddn\\AndroidStudioProjects\\TakeAssistant\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_abc_ic_search_api_material.xml.flat",
         "source": "C:\\Users\\sddn\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\b6b272eb3cc4d4fef2fde465a3400b7a\\res\\drawable\\abc_ic_search_api_material.xml"
     },
@@ -578,6 +590,10 @@
     {
         "merged": "C:\\Users\\sddn\\AndroidStudioProjects\\TakeAssistant\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_abc_list_menu_item_radio.xml.flat",
         "source": "C:\\Users\\sddn\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\b6b272eb3cc4d4fef2fde465a3400b7a\\res\\layout\\abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "C:\\Users\\sddn\\AndroidStudioProjects\\TakeAssistant\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\color_design_tint_password_toggle.xml.flat",
+        "source": "C:\\Users\\sddn\\.gradle\\caches\\transforms-1\\files-1.1\\design-27.1.1.aar\\fc4c9255abd82cb67c6de8677dca627e\\res\\color\\design_tint_password_toggle.xml"
     },
     {
         "merged": "C:\\Users\\sddn\\AndroidStudioProjects\\TakeAssistant\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4_abc_text_select_handle_middle_mtrl_dark.png.flat",
@@ -876,6 +892,10 @@
         "source": "C:\\Users\\sddn\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\b6b272eb3cc4d4fef2fde465a3400b7a\\res\\drawable\\abc_item_background_holo_dark.xml"
     },
     {
+        "merged": "C:\\Users\\sddn\\AndroidStudioProjects\\TakeAssistant\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\color_abc_tint_spinner.xml.flat",
+        "source": "C:\\Users\\sddn\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\b6b272eb3cc4d4fef2fde465a3400b7a\\res\\color\\abc_tint_spinner.xml"
+    },
+    {
         "merged": "C:\\Users\\sddn\\AndroidStudioProjects\\TakeAssistant\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_abc_list_menu_item_layout.xml.flat",
         "source": "C:\\Users\\sddn\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\b6b272eb3cc4d4fef2fde465a3400b7a\\res\\layout\\abc_list_menu_item_layout.xml"
     },
@@ -934,6 +954,10 @@
     {
         "merged": "C:\\Users\\sddn\\AndroidStudioProjects\\TakeAssistant\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_abc_seekbar_thumb_material.xml.flat",
         "source": "C:\\Users\\sddn\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\b6b272eb3cc4d4fef2fde465a3400b7a\\res\\drawable\\abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\sddn\\AndroidStudioProjects\\TakeAssistant\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\color_abc_btn_colored_text_material.xml.flat",
+        "source": "C:\\Users\\sddn\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\b6b272eb3cc4d4fef2fde465a3400b7a\\res\\color\\abc_btn_colored_text_material.xml"
     },
     {
         "merged": "C:\\Users\\sddn\\AndroidStudioProjects\\TakeAssistant\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4_design_ic_visibility_off.png.flat",
@@ -1352,6 +1376,10 @@
         "source": "C:\\Users\\sddn\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\b6b272eb3cc4d4fef2fde465a3400b7a\\res\\drawable-xxxhdpi-v4\\abc_spinner_mtrl_am_alpha.9.png"
     },
     {
+        "merged": "C:\\Users\\sddn\\AndroidStudioProjects\\TakeAssistant\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\color_abc_tint_switch_track.xml.flat",
+        "source": "C:\\Users\\sddn\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\b6b272eb3cc4d4fef2fde465a3400b7a\\res\\color\\abc_tint_switch_track.xml"
+    },
+    {
         "merged": "C:\\Users\\sddn\\AndroidStudioProjects\\TakeAssistant\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4_abc_btn_radio_to_on_mtrl_000.png.flat",
         "source": "C:\\Users\\sddn\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\b6b272eb3cc4d4fef2fde465a3400b7a\\res\\drawable-xxhdpi-v4\\abc_btn_radio_to_on_mtrl_000.png"
     },
@@ -1496,6 +1524,10 @@
         "source": "C:\\Users\\sddn\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\b6b272eb3cc4d4fef2fde465a3400b7a\\res\\drawable-mdpi-v4\\abc_ic_menu_share_mtrl_alpha.png"
     },
     {
+        "merged": "C:\\Users\\sddn\\AndroidStudioProjects\\TakeAssistant\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\color_abc_tint_btn_checkable.xml.flat",
+        "source": "C:\\Users\\sddn\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\b6b272eb3cc4d4fef2fde465a3400b7a\\res\\color\\abc_tint_btn_checkable.xml"
+    },
+    {
         "merged": "C:\\Users\\sddn\\AndroidStudioProjects\\TakeAssistant\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim_abc_fade_out.xml.flat",
         "source": "C:\\Users\\sddn\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\b6b272eb3cc4d4fef2fde465a3400b7a\\res\\anim\\abc_fade_out.xml"
     },
@@ -1542,6 +1574,10 @@
     {
         "merged": "C:\\Users\\sddn\\AndroidStudioProjects\\TakeAssistant\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\animator-v21_design_appbar_state_list_animator.xml.flat",
         "source": "C:\\Users\\sddn\\.gradle\\caches\\transforms-1\\files-1.1\\design-27.1.1.aar\\fc4c9255abd82cb67c6de8677dca627e\\res\\animator-v21\\design_appbar_state_list_animator.xml"
+    },
+    {
+        "merged": "C:\\Users\\sddn\\AndroidStudioProjects\\TakeAssistant\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\color-v21_abc_btn_colored_borderless_text_material.xml.flat",
+        "source": "C:\\Users\\sddn\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\b6b272eb3cc4d4fef2fde465a3400b7a\\res\\color-v21\\abc_btn_colored_borderless_text_material.xml"
     },
     {
         "merged": "C:\\Users\\sddn\\AndroidStudioProjects\\TakeAssistant\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_bd_ocr_hint_align_bank_card.png.flat",

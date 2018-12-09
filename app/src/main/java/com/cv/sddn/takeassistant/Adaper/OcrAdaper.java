@@ -4,13 +4,10 @@ import com.cv.sddn.takeassistant.Activity.MainActivity;
 import com.cv.sddn.takeassistant.bean.OcrResult;
 import com.cv.sddn.takeassistant.R;
 
-import android.Manifest;
 import android.annotation.SuppressLint;
 import android.content.*;
-import android.content.pm.PackageManager;
 import android.net.Uri;
 import android.support.annotation.NonNull;
-import android.support.v4.app.ActivityCompat;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
@@ -27,7 +24,7 @@ import java.util.List;
  * OcrAdater适配器
  *
  */
-public class OcrAdater extends RecyclerView.Adapter<OcrAdater.MyViewHolder> {
+public class OcrAdaper extends RecyclerView.Adapter<OcrAdaper.MyViewHolder> {
 
     private MainActivity context;
     private List<OcrResult> ocrResultlist;
@@ -49,7 +46,7 @@ public class OcrAdater extends RecyclerView.Adapter<OcrAdater.MyViewHolder> {
     }
 
     // 构造函数
-    public OcrAdater(List<OcrResult> ocrResultlist, MainActivity context) {
+    public OcrAdaper(List<OcrResult> ocrResultlist, MainActivity context) {
         this.ocrResultlist = ocrResultlist;
         this.context = context;
     }

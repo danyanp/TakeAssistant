@@ -10,15 +10,6 @@
 
 >
 
-    <!--<TextView-->
-        <!--android:id="@+id/phonenum"-->
-        <!--android:layout_width="match_parent"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--android:layout_alignParentStart="true"-->
-        <!--android:text="提示信息"-->
-        <!--android:textAlignment="center"-->
-        <!--android:textSize="60px" />-->
-
     <android.support.v7.widget.RecyclerView
         android:id="@+id/ocr_list"
         android:layout_width="match_parent"
@@ -38,27 +29,6 @@
         fab:menu_labels_ellipsize="end"
         fab:menu_labels_position="left"
         fab:menu_labels_singleLine="true">
-        <!--android:layout_alignParentBottom="true"-->
-        <!--android:layout_alignParentStart="true"-->
-        <!--android:layout_marginBottom="28dp"-->
-        <!--fab:menu_animationDelayPerItem="50"-->
-        <!--fab:menu_backgroundColor="@android:color/transparent"-->
-        <!--fab:menu_buttonSpacing="0dp"-->
-        <!--fab:menu_colorNormal="#DA4336"-->
-        <!--fab:menu_colorPressed="#E75043"-->
-        <!--fab:menu_colorRipple="#99FFFFFF"-->
-        <!--fab:menu_fab_label="your_label_here"-->
-        <!--fab:menu_fab_size="normal"-->
-        <!--fab:menu_icon="@drawable/fab_add"-->
-        <!--fab:menu_labels_hideAnimation="@anim/fab_slide_out_to_right"-->
-        <!--fab:menu_labels_showAnimation="@anim/fab_slide_in_from_right"-->
-        <!--fab:menu_labels_style="@style/MenuLabelsStyle"-->
-        <!--fab:menu_openDirection="up"-->
-        <!--fab:menu_shadowColor="#66000000"-->
-        <!--fab:menu_shadowRadius="4dp"-->
-        <!--fab:menu_shadowXOffset="1dp"-->
-        <!--fab:menu_shadowYOffset="3dp"-->
-        <!--fab:menu_showShadow="true">-->
 
         <com.github.clans.fab.FloatingActionButton
             android:id="@+id/general_basic_button"

@@ -5,7 +5,7 @@
     android:versionName="1.0" >
 
     <uses-sdk
-        android:minSdkVersion="24"
+        android:minSdkVersion="22"
         android:targetSdkVersion="27" />
 
     <uses-permission android:name="android.permission.CALL_PHONE" />
@@ -26,6 +26,7 @@
         android:label="快拨"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
+        android:testOnly="true"
         android:theme="@style/AppTheme"
         android:vmSafeMode="true" >
         <activity
